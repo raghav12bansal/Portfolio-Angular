@@ -1,0 +1,11 @@
+.rightBox{
+    width:65%;
+    float: left;
+}
+.leftBox{
+    width: 35%;
+    float: left;
+}
+.example-card {
+    max-width: 400px;
+  }
