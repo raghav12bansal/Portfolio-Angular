@@ -1,0 +1,29 @@
+.vertical-line{
+    border-left: 6px solid green;
+    margin-left:50%;
+    height: 500px;
+    /* display: block; */
+    /* left:50%; */
+    /* position: absolute; */
+}
+.heading{
+    font-size:180%;
+}
+.experience-left{
+    /* position: absolute; */
+    margin-left:-95%;
+    text-align: right;
+    width: 90%;
+}
+.experience-right{
+    /* position: absolute; */
+    width: 90%;
+    margin-left:5%;
+}
+.line-clamp {
+    display: -webkit-box;
+     -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  

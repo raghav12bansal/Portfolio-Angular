@@ -6,17 +6,25 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectsComponent } from './projects/projects.component';
+import {MatCardModule} from '@angular/material/card';
+import { ExperienceComponent } from './experience/experience.component';
+import { PublicationsComponent } from './publications/publications.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ExperienceComponent,
+    PublicationsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

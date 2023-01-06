@@ -7,5 +7,18 @@
     float: left;
 }
 .example-card {
-    max-width: 400px;
+    max-width: 350px;
+    border:1px solid black;
   }
+#box1{
+    float:left;
+}
+#box2{
+    float:left;
+}
+#box3{
+    float:left;
+}
+#box4{
+    float:left;
+}
