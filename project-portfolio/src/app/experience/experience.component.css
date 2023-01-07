@@ -7,10 +7,12 @@
     /* position: absolute; */
 }
 .heading{
-    font-size:180%;
+    font-size:170%;
+}
+.date-heading{
+    font-size:120%;
 }
 .experience-left{
-    /* position: absolute; */
     margin-left:-95%;
     text-align: right;
     width: 90%;
