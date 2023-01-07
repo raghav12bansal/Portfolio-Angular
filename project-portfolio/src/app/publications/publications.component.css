@@ -1,0 +1,5 @@
+.card-image{
+    /* width:60px; */
+    /* height:10px; */
+    clip: rect(90px, 140px, 140px, 0px);
+}
